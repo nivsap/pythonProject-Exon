@@ -60,6 +60,7 @@ def get_pokemon_name_match(pokemon_id):
 
 def test_get_pokemon_name_match():
     try:
+#bonus
         pokemon_ids = random.sample(range(1, 899), 10)
         for pokemon_id in pokemon_ids:
             pokemon_type = get_pokemon_name_match(pokemon_id)
